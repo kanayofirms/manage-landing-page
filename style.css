@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.manage{
+    min-width: fit-content;
+    max-height:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 200px;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+    
+    
+    
+}
+nav{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 3px;
+    justify-content: space-between;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+ 
+}
+ 
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+ 
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 12px;
+    position: relative;
+    
+}
+a{
+     
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:rgb(24, 24, 62);
+    text-decoration: none;
+}
+ 
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+ 
+ .left{
+    display: flex;
+    flex-direction: row;
+    justify-self:left;
+    gap: 20px;
+}
+.btn{
+    background-color: rgba(255, 34, 0, 0.952);
+    color: white;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    border: solid rgba(255, 34, 0, 0.952) 1px;
+}
+
+.pag{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+h1{
+    font-size: 60px;
+    color:rgb(24, 24, 62);
+
+}
+
+.text p{
+    font-size: 20px; 
+  font-family: Arial,;
+  color: silver;
+}
+
+.land{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;   
+}
+.text1 p{
+    font-size: 20px; 
+    font-family: Arial,;
+    color: silver;
+}
+
+.text2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.track{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.fatt{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.fat{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.fatt .btn{
+    background-color: rgba(255, 34, 0, 0.952);
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: solid rgba(255, 34, 0, 0.952) 1px;
+}
+
+.fat p{
+    font-size: 20px; 
+    font-family: Arial,;
+    color: silver;
+}
+
+.camp{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+
+.avater{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.camp h1{
+    text-align: center;
+}
+
+.lie{
+    width: 500px;
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lie h3{
+    text-align: center;
+    color:rgb(24, 24, 62);
+}
+
+.lie img{
+    width: 100px;
+    align-items: center;
+}
+
+.lie p{
+    font-size: 20px; 
+    font-family: Arial,;
+    color: silver;
+    text-align: center;
+}
+
+.can{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.man{
+    display: flex;
+    flex-direction: column;
+    width:100vw ;
+}
+
+.mane{
+    width: 100vw;
+    height: 20vh;
+    background-color: rgba(255, 34, 0, 0.952);
+    border: solid rgba(255, 34, 0, 0.952) 1px;
+    display: flex;
+    flex-direction: column;
+}
+.age{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(./images/bg-tablet-pattern.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    gap: 500px;
+}
+
+.eye{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eye .btn{
+    background-color: white;
+    color: rgba(255, 34, 0, 0.952);
+}
+.age h1{
+    color: black;
+    font-size: 50px;
+}
+.book{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(15, 15, 21) ;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.hone{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hone a{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.cane a{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.cane{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.butt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.butt p{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.bute{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.bute .btn{
+   width: 200px;
+   border: solid white 1px;
+   background-color: white;
+   color: rgba(255, 34, 0, 0.952);
+}
+.but .btn{
+   width: 60px;
+   border: rgba(255, 34, 0, 0.952);
+   background-color:rgba(255, 34, 0, 0.952);
+   color: white;
+}
+
+.bute p{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
